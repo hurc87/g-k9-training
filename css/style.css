@@ -6,9 +6,54 @@
  * Made By MaterializeCSS.com
  */
 
+ /* my stuff */
+
+body {
+  font: #CC973E;
+  background-color: #5C5D5F;
+}
+
+.header {
+  background-color: #5C5D5F;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+#main-logo {
+  height: 75px;
+  width: 75px;
+}
+.header2 {
+  background-color: #5C5D5F;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.header3 {
+  background-color: #5C5D5F;
+  height: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  font: #CC973E;
+}
+
+.social-media-links {
+  padding-top: 20px;
+}
+
+/* work out what can be deleted below */
+
+
+
+
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: #CC973E;
 }
 
 p {
@@ -16,7 +61,7 @@ p {
 }
 
 .sidenav-trigger {
-  color: #26a69a;
+  color: #CC973E;
 }
 
 .parallax-container {
