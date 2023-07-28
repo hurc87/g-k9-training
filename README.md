@@ -13,3 +13,4 @@ TODO:
 - change icons
 - move logo to next to title??
 - make background darker
+- change hover on socials so they glow

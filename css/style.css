@@ -1,30 +1,22 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
-
- /* my stuff */
-
 body {
   font: #CC973E;
-  background-color: #5C5D5F;
+  background-color: #0B0401;
 }
 
-.header {
-  background-color: #5C5D5F;
+.socials {
   height: 90px;
-  display: flex;
-  justify-content: space-between;
   padding: 10px;
+  border-bottom: 2px solid #CC973E;
+  background-color: #0B0401;
 }
 
-#main-logo {
-  height: 75px;
-  width: 75px;
+
+.intro {
+  display: flex;
+  flex-direction: column;
 }
+
+
 .header2 {
   background-color: #5C5D5F;
   height: 140px;
@@ -46,6 +38,33 @@ body {
   padding-top: 20px;
 }
 
+.page-footer {
+  background-color: #0B0401;
+  border-top: 2px solid #CC973E;
+}
+
+.sessions {
+  margin-top: 15px;
+  border-top: 2px solid #CC973E;
+}
+
+#about {
+  border-top: 2px solid #CC973E;
+}
+
+#contact {
+  border-top: 2px solid #CC973E;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.intro-image {
+  width: 200px;
+  height: 200px;
+}
 /* work out what can be deleted below */
 
 
