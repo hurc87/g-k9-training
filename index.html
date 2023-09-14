@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 
@@ -17,36 +18,30 @@
   <nav class="socials">
     <div class="nav-wrapper container row">
         <ul class="right">
-          <li><a href="https://www.facebook.com/GsK9Training"><img src="images/facebook-app-symbol.png" alt="Facebook logo" class="social-media-links"></a></li>
-          <li><a href="https://www.instagram.com/gs_k9_training/"><img src="images/instagram.png" alt="Instagram logo" class="social-media-links"></a></li>
-          <li><a href="https://www.tiktok.com/@gs_k9_training"><img src="images/tiktok.png" alt="'Tiktok logo" class="social-media-links"></a></li>
+          <li><a href="https://www.facebook.com/GsK9Training" target="_blank"><img src="images/facebook-app-symbol.png" alt="Facebook logo" class="social-media-links"></a></li>
+          <li><a href="https://www.instagram.com/gs_k9_training/" target="_blank"><img src="images/instagram.png" alt="Instagram logo" class="social-media-links"></a></li>
+          <li><a href="https://www.tiktok.com/@gs_k9_training" target="_blank"><img src="images/tiktok.png" alt="'Tiktok logo" class="social-media-links"></a></li>
         </ul>
     </div>
   </nav>
 
-
   <!-- Logo section -->
-  <div class="container row logo-section">
-    <div class="col s3">
-      <img src="images/logo.jpg" alt="G's K9 training logo" class="circle responsive-img" id="main-logo">
-    </div>
-    <div class="intro">
-      <h1>G's K9 Training</h1>
+  <div class="container logo-section">
+    <div class="intro center">
+      <div>
+        <img src="images/logo.jpg" alt="G's K9 training logo" class="circle responsive-img" id="main-logo">
+      </div>
       <h5>Expert dog training based in New Romney.</h5>
       <h6>Train your dog with proven techniques for obedience and good behavior.</h6>
     </div>
   </div>
 
-  <!-- Images -->
-  <div class="container">
-    <div class="carousel carousel-slider">
-      <a class="carousel-item" href="#one!"><img src="images/Screenshot 2023-07-28 145635.png"></a>
-      <a class="carousel-item" href="#two!"><img src="images/Screenshot 2023-07-28 145824.png"></a>
-      <a class="carousel-item" href="#three!"><img src="images/Screenshot 2023-07-28 145901.png"></a>
-    </div>
+  <!-- Image -->
+  <div class="container sessions">
+    <img src="./images/duke.png" alt="" srcset="" class="responsive-img">
   </div>
 
-  <div class="container sessions">
+  <div class="container sessions" data-aos="zoom-in" data-aos-duration="1000">
     <div class="section">
       <!--   Icon Section   -->
       <div class="row">
@@ -81,16 +76,37 @@
     </div>
   </div>
 
+    <!-- Image -->
+    <div class="container small-images row" data-aos="zoom-in" data-aos-duration="1000">
+      <img src="./images/ed.png" alt="" srcset="" class="responsive-img circle col s6 offset-s3">
+    </div>
+
+    <!-- Puppy sessions -->
+
+    <div class="container sessions" data-aos="zoom-in" data-aos-duration="1000">
+      <div class="center"><h4>Are you getting a new puppy?</h4></div>
+      <p class="light white-text">
+        We offer a puppy program to help you and your puppy get off to the best start. In the program, we offer advice on supplies you should get before your puppy comes home, to make sure you are well equipped to enable your puppy to settle into his or her new home from day 1. We will then help you build a good foundation through a mixture of crate training, puppy manners, engagement and early socialization - done the right way! The team are here to guide you each step of the way, with weekly homework and milestone check ins for you and your puppy. 
+      </p>
+      
+      <p class="light white-text">
+        Once you have built your foundations, we can then take you to the next steps such as teaching recall, loose lead walking and working around distractions. It’s never too early to set you and your puppy up for success, putting in the work now will make such a difference to both of your lives.
+
+      </p>
+
+
+
+    </div>
+
     <!-- Reviews -->
     <!-- Images -->
-    <div class="container sessions social-container">
+    <div class="container sessions social-container" data-aos="zoom-in" data-aos-duration="1000">
       <div class="center"><h4>Here is some of our client reviews!</h4></div>
-      <p class="white-text">TODO - center these and change the colours</p>
       <br>
-      <div class="carousel carousel-slider">
-        <div class="carousel-item row">
-          <div class="col s12 m5">
-            <div class="card-panel teal">
+
+      <div class="row">
+          <div class="col m6 offset-m3 s12">
+            <div class="card-panel gold center">
               <span class="white-text">George has been helping us with our sprocker on a range of issues. 
                 We are making great progress with him. 
                 I can’t recommend GK9 Training highly enough.
@@ -100,11 +116,10 @@
               <span class="white-text">Andy</span>
             </div>
           </div>
-        </div>
 
-        <div class="carousel-item row">
-          <div class="col s12 m5">
-            <div class="card-panel teal">
+   
+          <div class="col m6 offset-m3 s12">
+            <div class="card-panel gold">
               <span class="white-text">George has come to our rescue to help us with our crazy Cockapoo and our Macedonian rescue puppy ( no-one knows what breed she is).
                 What a lovely, friendly chap he is! From the very start he picked up on key problems … that being me and The Husband, probably more than the dog.  🤪 
                 George was incredibly knowledgeable, didn’t rush any of our learning and left us with some great homework to be getting on with.
@@ -116,65 +131,64 @@
               <span class="white-text">Julie</span>
             </div>
           </div>
-        </div>
+    
 
-        <div class="carousel-item row">
-          <div class="col s12 m5">
-            <div class="card-panel teal">
+    
+          <div class="col m6 offset-m3 s12">
+            <div class="card-panel gold">
               <span class="white-text">Highly recommend George after losing my way with my very strong and reactive German shepherd. Working towards achieving more engagement using the techniques George demonstrated. Looking forward continuing the progress.
               </span>
               <br><br>
               <span class="white-text">Jess</span>
             </div>
           </div>
-        </div>
+   
 
-        <div class="carousel-item row">
-          <div class="col s12 m5">
-            <div class="card-panel teal">
+
+          <div class="col m6 offset-m3 s12">
+            <div class="card-panel gold">
               <span class="white-text">George is very knowledgeable and gave us all the guidance, training we needed to do with our puppy. Simple clear instructions and understanding every dog owner should know.
 
               </span>
               <br><br><span class="white-text">Stressen</span>
             </div>
           </div>
-        </div>
+      
 
-        <div class="carousel-item row">
-          <div class="col s12 m5">
-            <div class="card-panel teal">
+          <div class="col m6 offset-m3 s12">
+            <div class="card-panel gold">
               <span class="white-text">we have a very strong bulldog who pulls on walks. he has pulled my wife over severall times and we don't dare to let the children walk him. half an hour with George showing us a few tricks and us applying them = no more pully bulldog.
-                George was profesional, polite and clearly extremely good at what he does. we will be going back to George in the future for a refresher/review of how we are doing.
-                Great service highly recomended
+                George was professional, polite and clearly extremely good at what he does. we will be going back to George in the future for a refresher/review of how we are doing.
+                Great service highly recommended
               </span>
               <br><br>
               <span class="white-text">Dave</span>
             </div>
           </div>
-        </div>
-        
+          </div>
   
-      </div>
-    </div>
-
-    <div class="container sessions">
-      <div class="center"><h4>Some of our training sessions</h4></div>
-      <br>
-      <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@gs_k9_training" data-unique-id="gs_k9_training" data-embed-type="creator" style="max-width: 780px; min-width: 288px;" > <section> <a target="_blank" href="https://www.tiktok.com/@gs_k9_training?refer=creator_embed">@gs_k9_training</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
     </div>
 
 <!-- about -->
-  <div class="container" id="about">
+  <div class="container" id="about" data-aos="zoom-in" data-aos-duration="1000">
     <div class="section">
       <div class="image-container">
-        <img class="circle intro-image" src="images/Screenshot 2023-07-28 144605.png" alt="">
+        <img class="circle intro-image" src="images/about-me.png" alt="">
       </div>
 
       <div class="row">
         <div class="col s12 center">
           <h3><i class="mdi-content-send"></i></h3>
-          <h4>About us</h4>
-          <p class="left-align light white-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+          <h4>About me</h4>
+          <p class="left-align light white-text">
+            I have had a passion for dogs from a young age, my parents are champion show dog breeders, so I have been around dogs and the industry my entire life.  I have 3 dogs of my own; our eldest is a Mastiff called Duke, our rescue Frenchie Roxie and our recent member of the family, an adopted Belgian Malinois called Ed - who I will be taking on a journey of PSA (so keep watching for more on this).  
+          </p>
+          <p class="left-align light white-text">
+            I have trained for the last half a decade in dog psychology and undertaken the Fenrir training programme, and am still currently part of their network. It was this that led me from working in an industry I had been in since leaving school, to now be running my own dog training business. 
+          </p>
+          <p class="left-align light white-text">
+            I love what I do and if I can help make a difference in you and your dog's life, then I will.
+          </p>
         </div>
       </div>
 
@@ -183,7 +197,7 @@
 
   <!-- contact us -->
 
-  <div class="container sessions">
+  <div class="container sessions" data-aos="zoom-in" data-aos-duration="1000">
     <div class="section">
       <div class="center"><h4>Get in touch</h4></div>
       <!--   Icon Section   -->
@@ -220,6 +234,11 @@
       fullWidth: true
     })
   </script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
   </body>
 </html>
